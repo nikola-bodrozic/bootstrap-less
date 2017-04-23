@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>MetHotels :: Login</title>
+		<!-- Bootstrap and demo CSS -->
+		<link href="dist/css/bootstrap.css" rel="stylesheet">
+		<link href="dist/css/bootstrap-theme.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--if lt IE 9
+		script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+		script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
+		-->
+	</head>
+	<body>
+		<div class="container">
+			<!-- Static navbar -->
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">MetHotels</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li class="active">
+								<a href="login.html">Login</a>
+							</li>
+							<li>
+								<a href="reg.html">Register</a>
+							</li>								
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div><!--/.container-fluid -->
+			</nav>
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Log in</h3>
+					
+					<div class="alert alert-success" role="alert">
+						<span class="glyphicon glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+						<span class="sr-only">Potvrda:</span>
+						You are logged in
+					</div>
+					
+					<div class="alert alert-danger" role="alert">
+						<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+						<span class="sr-only">Greška:</span>
+						Enter valid email
+					</div>
+					
+					<form action="#" method="post">
+						<div class="input-group">
+							<input name="username" class="form-control" placeholder="username" aria-describedby="basic-addon2" type="text">
+						</div>
+						<br>
+						<div class="input-group">
+							<input name="password" class="form-control" placeholder="password" aria-describedby="basic-addon2" type="password">
+						</div>
+						<br>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox">
+								Remember me</label>
+						</div>
+						<div class="input-group">
+							<button type="submit" name="submit" id="submit" class="btn btn-success" value="Login">
+								Login
+							</button>
+							<br>
+						</div>
+						<input name="anticsrf" value="934875dkrjtier5684th" type="hidden">
+						<br>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<footer class="well">
+					<p class="text-center">
+						© Nikola Bodrozic
+					</p>
+				</footer>
+			</div>
+		</div>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="dist/js/bootstrap.js"></script>
+		</body>
+</html>
