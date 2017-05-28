@@ -118,7 +118,7 @@ module.exports = function (grunt) {
           'js/scrollspy.js',
           'js/tab.js',
           'js/affix.js',
-          'bower_components/bootstrap-select/js/bootstrap-select.js'
+          'js/bootstrap-select.js'
         ],
         dest: 'dist/js/<%= pkg.name %>.js'
       }
